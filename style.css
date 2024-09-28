@@ -1,0 +1,41 @@
+.WageHeader {
+    width: calc(328px + (729 - 328) * ((100vw - 376px) / (1280 - 375)));
+}
+.WageInfo {
+    width: calc(328px + (876 - 328) * ((100vw - 376px) / (1280 - 375)));
+    margin-top: calc(2.2vw + 11.7px);
+}
+
+.JobAccomodationsImg {
+    margin-top: calc(1.8vw + 13.4px);
+}
+
+.JobAccomodationsImg img {
+    width: 100%;
+    height: auto;
+}
+.Waitingforyou {
+    width: calc(55.2vw + 121px);
+}
+.Box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px 52px;
+    margin-top: calc(3.3vw + 17.6px);
+}
+.WaitingforyouImg {
+    width: calc(11.3vw + 285.7px);
+    height: calc(7.8vw + 199.6px);
+}
+.WaitingforyouImg img {
+    width: 100%;
+    height: 100%;
+}
+.BoxContent {
+    width: calc(21.2vw + 248.4px);
+}
+.BoxContent p {
+    font-size: 21px;
+    line-height: 140%;
+}
